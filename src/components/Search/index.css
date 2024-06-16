@@ -1,0 +1,110 @@
+@media screen and (min-width:576px){
+.weather-container{
+    height:70vh;
+    width:50%;
+    place-self: center;
+    margin-top:15px;
+    padding: 40px;
+    border-radius:20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #b9bec3;
+}
+.search-bar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+}
+@media screen and (max-width:576px) {
+    .search-bar input{
+    height:30px;
+    border:none;
+    outline:none;
+    border-top-left-radius:20px;
+    border-bottom-left-radius:20px;
+    color: #626262;
+    background-color: #b9bec3;
+    font-size:12px;
+}
+.search-bar button{
+    height:32px;
+    border:none;
+    outline:none;
+    border-top-right-radius:20px;
+    border-bottom-right-radius:20px;
+    color: #611e1e;
+    background:#9d8e3f;
+    font-size:12px;
+    cursor: pointer ;
+}
+}
+.search-bar input{
+    height:40px;
+    border:none;
+    outline:none;
+    border-top-left-radius:20px;
+    border-bottom-left-radius:20px;
+    color: #626262;
+    background: #efefef;
+    font-size:18px;
+}
+.search-bar button{
+    height:42px;
+    border:none;
+    outline:none;
+    border-top-right-radius:20px;
+    border-bottom-right-radius:20px;
+    color: #611e1e;
+    background:#9d8e3f;
+    font-size:18px;
+    cursor: pointer ;
+}
+.tdt-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap:20px;
+}
+.temp-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap:20px;
+}
+.weather-icon{
+    height:15vh;
+}
+.temparature{
+    color:red;
+    font-size: 30px;
+}
+.loaction{
+    color:#fff;
+    font-size: 40px;
+}
+.weather-data{
+    width:40%;
+    margin-top:20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.weather-data .col{
+    display: flex;
+    align-items: flex-start;
+    align-items: center;
+    gap:12px;
+    font-size:22px;
+}
+.weather-data .col img{
+    width:36px;
+    margin-top: 10px;
+}
+.weather-data .col p{
+    font-size:16px;
+}
+.weather-data .col span{
+    font-size: 16px;
+}
